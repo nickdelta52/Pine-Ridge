@@ -1,17 +1,17 @@
 /*------------------------------------------
- Contact form
+ info form
  ------------------------------------------*/
 
 $(document).ready(function () {
 
-    $("#contactForm").submit(function(e){
+    $("#infoForm").submit(function(e){
 
         e.preventDefault();
         var $ = jQuery;
 
         var postData 		= $(this).serializeArray(),
             formURL 		= $(this).attr("action"),
-            $cfResponse 	= $('#contactFormResponse'),
+            $cfResponse 	= $('#infoFormResponse'),
             $cfsubmit 		= $("#cfsubmit"),
             cfsubmitText 	= $cfsubmit.text();
 

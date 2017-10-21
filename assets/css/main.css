@@ -223,22 +223,22 @@ body
 	cursor: w-resize;
 }
 /*=================================================
-||				7. Portfolio
+||				7. shop
 ==================================================*/
 .porfolio{
 	background: #f9f9f9;
 }
-.portfolio-img{
+.shop-img{
 	position: relative;
 	overflow: hidden;
 	text-align: center;
 }
-.portfolio-img .port-item{
+.shop-img .port-item{
 	width: 100%;
 	height: auto;
 	transition: all .6s ease-in-out;
 }
-.portfolio-img:hover .portfolio-img-hover{
+.shop-img:hover .shop-img-hover{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -247,27 +247,27 @@ body
 	transition: all .6s ease-in-out;
 	background: rgba(0, 0, 0, 0.5);
 }
-.portfolio-img-hover{
+.shop-img-hover{
 
 }
 .plus{
 	display: none;
 }
-.portfolio-img:hover .plus{
+.shop-img:hover .plus{
 	display: inline-block;
 	padding-top: 25%;
 }
-.portfolio-img:hover .port-item{
+.shop-img:hover .port-item{
 	transform: scale(1.1);
 }
-.portfolio-item-details{
+.shop-item-details{
 	margin: 20px 0px 50px; 
 }
-.portfolio-item-name{
+.shop-item-name{
 	display: inline-block;
 	font-size: 15px;
 }
-.port-heart, .portfolio-item-name small{
+.port-heart, .shop-item-name small{
 	font-size: 13px;
 	color: #969595;
 }
@@ -456,7 +456,7 @@ a .rss:hover{
 	.quote{
 		padding: 0 50px;
 	}
-	.portfolio .portfolio-item{
+	.shop .shop-item{
 		margin: 15px;
 	}
 	.price-title, .price-list{
