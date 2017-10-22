@@ -1,5 +1,5 @@
 /*=================================================
-||				1. Imports 
+||				1. Imports
 ==================================================*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:200,400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
@@ -29,6 +29,7 @@ body
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 2px;
+	color: #000;
 }
 .section-item-title{
 	font-size: 20px;
@@ -47,6 +48,17 @@ body
 	height: 2px;
 	width: 50px;
 	margin: 0px auto 60px;
+}
+.info-black{
+	color: #000;
+	font-style: italic;
+}
+.insta-link{
+	color: #fff;
+}
+.info-2{
+	padding-top: 25px;
+	color: #000;
 }
 /*=================================================
 ||				3. Header
@@ -261,7 +273,7 @@ body
 	transform: scale(1.1);
 }
 .shop-item-details{
-	margin: 20px 0px 50px; 
+	margin: 20px 0px 50px;
 }
 .shop-item-name{
 	display: inline-block;
@@ -276,7 +288,10 @@ body
 	display: inline-block;
 	margin-top: 10px;
 }
-
+.shop-text{
+	text-align: center;
+	font-size: 35px;
+}
 
 /*=================================================
 ||				8. Note
@@ -481,7 +496,19 @@ a .rss:hover{
 	.quote{
 		padding: 0 15px;
 	}
-} 
+}
+.info-sec{
+	height: 600px
+}
+.info-title{
+	padding-top: 60px;
+	font-size: 35px;
+}
+.info-text{
+	text-align: center;
+	font-size: 20px;
+}
+
 @media (max-width: 480px){
 	.header-table{
 		max-height: 627px;

@@ -5,9 +5,9 @@
 	background: #f3f3f3;
 }
 .about-detail{
-	font-size: 14px;
+	font-size: 20px;
 	color: #999;
-	font-weight: 200;
+	font-weight: 100;
 	top: 50%;
 	transform: translateY(50%);
 	/*position: absolute;*/
