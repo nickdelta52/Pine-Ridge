@@ -1,2 +1,2 @@
 # Pine Ridge Clothing
-Free Responsive Web Template
+Based on a Free Responsive Web Template
