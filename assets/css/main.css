@@ -19,6 +19,12 @@ body
 .purple{
 	background: #4a148c;
 }
+.green{
+	background: #31403B;
+}
+.red{
+	background: #8C3133;
+}
 .section-wrapper{
 	padding-top: 90px;
 	padding-bottom: 80px;
@@ -56,6 +62,11 @@ body
 .insta-link{
 	color: #fff;
 }
+
+.insta-link:hover{
+	color: #fff;
+}
+
 .info-2{
 	padding-top: 25px;
 	color: #000;
@@ -507,6 +518,16 @@ a .rss:hover{
 .info-text{
 	text-align: center;
 	font-size: 20px;
+}
+
+.info-text-insta{
+	text-align: center;
+	font-size: 20px;
+	color: #4a148c;
+}
+
+.info-text-insta:hover {
+	color:#4a148c;
 }
 
 @media (max-width: 480px){
